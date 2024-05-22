@@ -1,0 +1,34 @@
+.about-container .about-img img{
+    transform: translateX(-200%);
+    transition: all 0.2s ease;
+}
+
+.about-info{
+   overflow: hidden;
+}
+
+.about-info h1{
+    transform: translateY(-100%);
+    transition: all 0.2s ease;
+    font-family: Beloved-Dreams
+}
+
+.about-info h2{
+    transform: translateX(-200%);
+    transition: all 0.2s ease;
+}
+
+.about-info p:nth-child(2){
+    transform: translateX(-100%);
+    transition: all 1s ease;
+}
+.about-info p:nth-child(3){
+    transform: translateY(200%);
+    transition: all 0.2s ease;
+}
+
+.about-container .social{
+    opacity: 0;
+    transition: opactiy 1s ease;
+}
+

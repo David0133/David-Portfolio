@@ -1,0 +1,32 @@
+
+
+.intro{
+    /* width: 50%; */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+transform: translateX(200%);
+transition: all 0.5s ease;
+}
+
+.intro h1{
+    transform: translateY(-100%);
+    transition: all 0.5s ease;
+    font-family: Beloved-Dreams
+}
+.intro .typewriter{
+    transform: translateY(200%);
+    transition: all 0.5s ease;
+    /* font-family: Wordle; */
+}
