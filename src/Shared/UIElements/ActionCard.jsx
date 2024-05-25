@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Card, CardHeader, CardBody, CardFooter,Button, ButtonGroup, Stack, Heading, Text, Divider, Image } from '@chakra-ui/react'
+import { Card, CardBody,Button, ButtonGroup, Stack, Heading, Text,Image } from '@chakra-ui/react'
 
 export default function ActionAreaCard(props) {
   return (
@@ -19,12 +19,12 @@ export default function ActionAreaCard(props) {
       </CardBody>
       <CardBody className=''>
         <ButtonGroup spacing='20'>
-          <a href={props.description.code_url} className={props.description.code_url=='#' ? 'disable-link' : ''}>
+          <a href={props.description.code_url} className={props.description.code_url==='#' ? 'disable-link' : ''}>
           <Button variant='solid' colorScheme='teal' className='btn rounded bg-blue-600 p-2'>
             View Code 
           </Button>
           </a>
-          <a href={props.description.live_url} className={props.description.live_url=='#' ? 'disable-link' : ''}>
+          <a href={props.description.live_url} className={props.description.live_url==='#' ? 'disable-link' : ''}>
           <Button variant='solid' colorScheme='teal' className='btn rounded bg-blue-600 p-2'>
             Live Demo 
           </Button>

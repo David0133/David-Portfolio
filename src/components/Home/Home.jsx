@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 import './home.css';
 import undraw from '../../assets/images/undraw_hello_re_3evm.svg';
-import About from '../About/About';
+
 const Home = () => {
     const [hide, setHidden] = useState(true);
 
@@ -38,7 +38,7 @@ const Home = () => {
                         />
                     </div>
                     <div className="text-center mt-4" hidden={hide}>
-                        <a href="https://drive.google.com/file/d/1VqW3VGBbupw6KpRl9cFHzl1P9K9e1QWS/view?usp=sharing" download className="bg-violet-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700" target='_blank'>
+                        <a href="https://drive.google.com/file/d/1VqW3VGBbupw6KpRl9cFHzl1P9K9e1QWS/view?usp=sharing" download className="bg-violet-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
                             Download Resume
                         </a>
                     </div>
