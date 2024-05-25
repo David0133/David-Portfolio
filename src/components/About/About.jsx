@@ -32,7 +32,7 @@ const About = () => {
     }, [])
 
     return (
-        <div className='about-container px-16 d-flex flex-col justify-around sm:d-flex md:flex-row items-center h-screen  '>
+        <div className='about-container px-16 d-flex flex-col justify-around sm:d-flex md:flex-row items-center min-h-screen  '>
 
             <div className="about-img w-full md:w-1/2 ">
                 <img src={about_pic} alt="" className=' ' />

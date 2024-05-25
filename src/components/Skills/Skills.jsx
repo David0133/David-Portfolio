@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './skill.css';
 const Skills = () => {
     return (
-        <div className=' min-h-[32.5rem] d-flex flex-col items-center max-w-screen overflow-hidden'>
-            <h1 className='text-3xl'><FontAwesomeIcon icon={faLaptopCode}/> {' '}Skills</h1>
+        <div className=' min-h-screen d-flex flex-col items-center max-w-screen overflow-hidden'>
+            <h1 className='text-3xl my-4'><FontAwesomeIcon icon={faLaptopCode}/> {' '}Skills</h1>
             <div className="skills grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-4 my-10">
 
                 <div className="skill"><i className="ci ci-java ci-3x"></i>JAVA</div>

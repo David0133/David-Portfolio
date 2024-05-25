@@ -9,9 +9,9 @@ const Contact = () => {
     }
 
     return (
-        <div className='contact h-screen relative'>
+        <div className='contact min-h-screen relative'>
             <div className="content d-flex flex-col justify-center bg-white text-black h-screen">
-                <img src={contact} alt="" className=' h-[100%] absolute left-0 opacity-40' />
+                <img src={contact} alt="" className=' h-[100%] absolute right-0 opacity-30' />
                 <div className='d-flex flex-col md:items-center z-10 px-10'>
                     <h5 className='text-3xl font-bold'>Get in touch</h5>
                     <h1 className='text-2xl font-bold'>Let's work together</h1>

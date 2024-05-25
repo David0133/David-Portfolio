@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
     <NavBar/>
-    <main className={`main`}>
+    <main className={`main min-h-screen`}>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />

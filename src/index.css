@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .disable-link{
+    pointer-events: none;
+            cursor: not-allowed;
+            opacity: 0.5;
+  }
+}
+
 *{
   margin: 0;
   padding: 0;
