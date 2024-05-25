@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/David-Portfolio/static/css/main.90d8ad82.css",
+    "main.js": "/David-Portfolio/static/js/main.43086cbf.js",
+    "static/js/453.d0ba3126.chunk.js": "/David-Portfolio/static/js/453.d0ba3126.chunk.js",
+    "static/media/Blog.png": "/David-Portfolio/static/media/Blog.c2d918e2e6b6e9829d93.png",
+    "static/media/StoreDoor.png": "/David-Portfolio/static/media/StoreDoor.49db8d8dabbbe1bef2eb.png",
+    "static/media/portfolio.png": "/David-Portfolio/static/media/portfolio.febec024a15ba5100e08.png",
+    "static/media/Programming-bro.svg": "/David-Portfolio/static/media/Programming-bro.67372d4cac82bd6a396e8b8065a48af2.svg",
+    "static/media/ToDo.png": "/David-Portfolio/static/media/ToDo.4f36f739f967756b5eee.png",
+    "static/media/bankmanagement.png": "/David-Portfolio/static/media/bankmanagement.43a85e2a55aa9e445dc5.png",
+    "static/media/undraw_profile_re_4a55.svg": "/David-Portfolio/static/media/undraw_profile_re_4a55.fef59f6e819f137f79e9665ec3f9deff.svg",
+    "static/media/undraw_hello_re_3evm.svg": "/David-Portfolio/static/media/undraw_hello_re_3evm.35bb406122975b09372b147644345708.svg",
+    "index.html": "/David-Portfolio/index.html",
+    "main.90d8ad82.css.map": "/David-Portfolio/static/css/main.90d8ad82.css.map",
+    "main.43086cbf.js.map": "/David-Portfolio/static/js/main.43086cbf.js.map",
+    "453.d0ba3126.chunk.js.map": "/David-Portfolio/static/js/453.d0ba3126.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90d8ad82.css",
+    "static/js/main.43086cbf.js"
+  ]
+}
