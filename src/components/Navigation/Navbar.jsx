@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -34,7 +34,7 @@ const Navbar = () => {
       <h1 className='text-2xl font-bold' ><NavLink to="/">DAVID</NavLink></h1>
       
       <div className="hidden md:flex">
-        <Menu class="d-flex gap-4  text-2xl font-medium" />
+        <Menu class="d-flex gap-8  text-2xl font-medium" />
       </div>
       <FontAwesomeIcon icon={faBars} className="text-3xl absolute right-10 md:hidden" onClick={toggleDrawer} />
       {drawerIsOpen && <Backdrop onClick={toggleDrawer} />}

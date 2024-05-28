@@ -51,6 +51,15 @@ const Menu = (props) => {
             {props.icons && <FontAwesomeIcon icon={faProjectDiagram} />}
             <NavLink to="projects" className="project">Projects</NavLink>
           </li>
+          <li
+            onMouseEnter={() => handleMouseEnter('education')}
+            onMouseLeave={handleMouseLeave}
+            style={{ opacity: hoveredItem === 'education' || hoveredItem === null ? 1 : 0.5, transition: 'opacity 0.3s ease-in-out' }} 
+             className='d-flex items-center gap-4  text-2xl font-medium'
+          >
+            {props.icons && <FontAwesomeIcon icon={faProjectDiagram} />}
+            <NavLink to="education" className="education">Education</NavLink>
+          </li>
           
           <li
             onMouseEnter={() => handleMouseEnter('contact')}

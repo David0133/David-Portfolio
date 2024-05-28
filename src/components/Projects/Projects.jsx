@@ -33,8 +33,8 @@ const Projects = () => {
         'Portfolio' : {
             'description' : "This is My Portfolio Application. Based on ReactJs Framework.",
              'image' : PortFolio,
-             'code_url' : '#',
-             'live_url' : '#'
+             'code_url' : 'https://github.com/David0133/David-Portfolio',
+             'live_url' : 'https://david-portfolio-kappa-teal.vercel.app/'
         },
         'Bank-Management' : {
             'description' : "This is a Console based Bank Management Application. Build Using Python.",
