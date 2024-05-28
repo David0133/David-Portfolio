@@ -43,7 +43,7 @@ const Education = () => {
             <div className="edu-details mt-10">
                 <h1 className='text-3xl text-center my-4 font-bold'><FontAwesomeIcon icon={faBookOpen} />{" "}Education</h1>
                 {education.map(edu => (
-                    <div key={edu.id} className="card d-flex gap-2 mb-4 p-2 border border-gray-300 rounded shadow bg-gray-800 ">
+                    <div key={edu.id} className="card d-flex flex-col sm:flex-row gap-2 mb-4 p-2 border border-gray-300 rounded shadow bg-gray-800 ">
                         <img src={edu.image} alt="img"  className='rounded object-cover' style={{height: '100px', width: '100px'}} />
                         <div className="content">
                         <h3 className='text-3xl'>{edu.title} {edu.id==1?<FontAwesomeIcon icon={faUserGraduate} />:""}</h3>

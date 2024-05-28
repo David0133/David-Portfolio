@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { faHouse, faProjectDiagram, faAddressCard, faEnvelope,faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faProjectDiagram, faAddressCard, faEnvelope,faLaptopCode,faBookOpen } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Menu = (props) => {
     const [hoveredItem, setHoveredItem] = useState(null);
@@ -57,7 +57,7 @@ const Menu = (props) => {
             style={{ opacity: hoveredItem === 'education' || hoveredItem === null ? 1 : 0.5, transition: 'opacity 0.3s ease-in-out' }} 
              className='d-flex items-center gap-4  text-2xl font-medium'
           >
-            {props.icons && <FontAwesomeIcon icon={faProjectDiagram} />}
+            {props.icons && <FontAwesomeIcon icon={faBookOpen} />}
             <NavLink to="education" className="education">Education</NavLink>
           </li>
           
