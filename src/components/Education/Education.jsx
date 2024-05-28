@@ -31,7 +31,7 @@ const Education = () => {
             id: 3,
             title: "Higher Secondary",
             institution: "Mother Convent Co-Ed school",
-            University : "RGPV",
+            University : "M.P Board",
             location : "Bhopal",
             passout : 2016,
             image : school
