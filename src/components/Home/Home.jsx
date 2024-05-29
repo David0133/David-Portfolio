@@ -27,7 +27,7 @@ const Home = () => {
             <div className="container home-container text-center w-full min-h-screen d-flex flex-col justify-center  md:flex-row md:justify-between items-center overflow-hidden ">
 
                 <div className="intro w-full sm:w-1/2">
-                    <h1 className='text-5xl md:text-4xl lg:text-6xl'>I am David</h1>
+                    <h1 className='text-5xl md:text-4xl lg:text-6xl'>David Charles</h1>
                     <div className="typewriter text-xl" hidden={hide}>
                         <Typewriter
                             options={{
@@ -38,7 +38,7 @@ const Home = () => {
                         />
                     </div>
                     <div className="text-center mt-4" hidden={hide}>
-                        <a href="https://drive.google.com/file/d/1VqW3VGBbupw6KpRl9cFHzl1P9K9e1QWS/view?usp=sharing" download className="bg-violet-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                        <a href="https://drive.google.com/file/d/1BjRJ49GDN6YHxfwkFCCrb8rcHXHb9dPY/view?usp=sharing" download className="bg-violet-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
                             Download Resume
                         </a>
                     </div>

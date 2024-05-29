@@ -12,7 +12,7 @@ const Education = () => {
         {
             id: 1,
             title: "Bachelor of technology in Computer Science",
-            institution: `Sagar Institute of Engineering and Technology ( SIRT )`,
+            institution: `Sagar Institute of Research and Technology ( SIRT )`,
             University : "RGPV",
             location : "Bhopal",
             passout : 2023,
