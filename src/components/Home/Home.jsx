@@ -38,7 +38,7 @@ const Home = () => {
                         />
                     </div>
                     <div className="text-center mt-4" hidden={hide}>
-                        <a href="https://drive.google.com/file/d/1BjRJ49GDN6YHxfwkFCCrb8rcHXHb9dPY/view?usp=sharing" download className="bg-violet-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                        <a href="https://drive.google.com/file/d/1JXtdWeiuUIla20VSJc6-Im7d0JlvWhQK/view?usp=sharing" download className="bg-violet-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
                             Download Resume
                         </a>
                     </div>
