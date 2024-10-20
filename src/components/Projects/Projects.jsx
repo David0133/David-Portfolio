@@ -27,7 +27,7 @@ const Projects = () => {
         'StoreDoor' : {
             'description' : "This is an Ecommerce website. Build Using Django. Here customer can buy products from different categories.",
              'image' : StoreDoor,
-             'code_url' : '#',
+             'code_url' : 'https://github.com/David0133/Ecommerce_django/tree/develop',
              'live_url' : '#'
         },
         'Portfolio' : {
